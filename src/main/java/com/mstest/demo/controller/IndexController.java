@@ -19,9 +19,9 @@ public class IndexController {
         System.out.println("index");
     }
 
-    @RequestMapping("/indexc")
-    public void indexc(){
-        System.out.println("indexc");
+    @RequestMapping("/indexd")
+    public void indexd(){
+        System.out.println("indexd");
     }
 
 }
