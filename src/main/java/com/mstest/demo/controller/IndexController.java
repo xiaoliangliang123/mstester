@@ -9,13 +9,19 @@ import javax.annotation.Resource;
  * @author:WANGLIANG(XIAO)
  * @Date: 2020/3/26 09:04
  * @Description :index test change controller
- */@Controller
+ */
+ @Controller
 public class IndexController {
 
 
     @RequestMapping("/index")
     public void index(){
         System.out.println("index");
+    }
+
+    @RequestMapping("/indexb")
+    public void indexb(){
+        System.out.println("indexb");
     }
 
 }
